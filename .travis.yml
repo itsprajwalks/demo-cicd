@@ -8,7 +8,7 @@ install:
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script: ./mvnw clean install
 
-# creating a pipeline to run Test
+# creating a pipeline to run Test (Junit Test)
 jobs:
   include:
     - stage: Test
